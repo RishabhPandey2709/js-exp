@@ -235,3 +235,5 @@ let p3 =  Promise.reject('c');
 Promise.all([p1,p2,p3])
 .then((data)=>console.log(data))
 .catch((err)=>console.log(err));
+
+console.log('hey');
